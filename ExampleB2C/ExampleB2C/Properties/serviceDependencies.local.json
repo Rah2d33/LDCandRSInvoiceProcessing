@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "identityapp1": {
-      "connectionInfo": "App registration: WebApp-documentProcessing-SA-dev-001, Tenant: InvoiceProcessingCo (invoiceprocessing.onmicrosoft.com - AAD B2C)",
-      "type": "identityapp.default"
-    }
-  }
-}
