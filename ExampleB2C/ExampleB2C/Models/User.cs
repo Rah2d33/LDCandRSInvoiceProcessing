@@ -2,8 +2,17 @@
 {
     public class User
     {
-        public int User_id { get; set; }
+        public int UserId { get; set; }
+        public string B2CUserId { get; set; }
+        public string Email { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PasswordHash { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
 
-        public int MyProperty { get; set; }
+
+        public ICollection<Session> Sessions { get; set; }
+        public ICollection<Document> Documents { get; set; }
     }
 }
