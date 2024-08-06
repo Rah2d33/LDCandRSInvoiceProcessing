@@ -52,24 +52,29 @@ body {
 
 /* Styles for the card container and its contents */
 
-
 .card-container {
     padding-top: 50px; /* Adjust the value as needed */
     padding-bottom: 50px; /* Optional: Adds padding to the bottom */
 }
-
 
 .row {
     padding-top: 50px; /* Moves the cards down by 150px */
 }
 
 .card {
-    width: 100%;
+    width: 250px;
+    height: 300px;
     border-radius: 15px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     padding: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between elements to push button to the bottom */
+    align-items: center;
+    text-align: center;
 }
 
     .card:hover {
@@ -77,35 +82,51 @@ body {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
+
+
 .card-title {
     font-size: 1.25rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
+    color: #0B3040;
+    padding: 6px 0px 0px 0px;
 }
 
 .card-text {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1rem;
+    font-family: 'Trebuchet MS';
+    color: #0B3040;
 }
 
 .btn-primary {
-    display: block;
+    display: flex; /* Use flexbox to align content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
     width: 100%;
     text-align: center;
-    background-color: #6CB2B0;
+    background-color: #0B3040;
     border-color: #539C9A;
-    border-radius: 5px;
+    border-radius: 50px;
     transition: background-color 0.3s, border-color 0.3s;
+    margin-top: auto; /* Push the button to the bottom */
+    padding: 10px 20px; /* Add padding around the button */
+    box-sizing: border-box; /* Ensure padding does not affect width */
 }
+
+    .btn-primary i {
+        margin-right: 10px; /* Space between the icon and the text */
+        font-size: 1.2rem; /* Adjust icon size if needed */
+    }
 
     .btn-primary:hover,
     .btn-primary:active {
         background-color: #539C9A;
         border-color: #539C9A;
-        outline: none; /* Remove border on click */
     }
+
 
 @media (min-width: 768px) {
     .col-md-4 {
@@ -114,8 +135,8 @@ body {
     }
 
     .card {
-        width: 20rem;
-        height: 14.5rem;
+        width: 250px; /* Set a fixed width */
+        height: 250px; /* Set a fixed height */
         border-radius: 15px;
         margin-bottom: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -123,7 +144,7 @@ body {
         padding: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between; /* Space between elements to push button to the bottom */
         align-items: center;
         text-align: center;
     }
@@ -132,6 +153,4 @@ body {
 .footer {
     text-align: center;
     background-color: #f8f9fa;
-    
 }
-
