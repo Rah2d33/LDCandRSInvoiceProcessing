@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mb-4">
+    <h1>Welcome</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">   
+                    <h5 class="card-title">Save documents</h5>
+                    <p class="card-text">Upload documents directly to your container. </p>
+                    <a href="@Url.Action("SaveFilesView", "Home")" class="btn btn-primary">Upload</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">View report</h5>
+                    <p class="card-text">Show previously extracted data</p>
+                    <a href="@Url.Action("ActionName2", "ControllerName2")" class="btn btn-primary">View </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Merge Data</h5>
+                    <p class="card-text">Combine tables to create batch documents </p>
+                    <a href="@Url.Action("ActionName3", "ControllerName3")" class="btn btn-primary">Go </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
