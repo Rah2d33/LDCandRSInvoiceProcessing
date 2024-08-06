@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExampleB2C")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df118d87c0af9fb50f31d7208f35b554ca87fd60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56904a530236bbba3643d5c1f8f36cb455f51685")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExampleB2C")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExampleB2C")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
