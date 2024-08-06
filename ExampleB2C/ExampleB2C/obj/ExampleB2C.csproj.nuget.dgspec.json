@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MVCAPPS\\InvoiceProcessingMVC\\Rah2d33\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj": {}
+    "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj": {}
   },
   "projects": {
-    "C:\\MVCAPPS\\InvoiceProcessingMVC\\Rah2d33\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj": {
+    "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MVCAPPS\\InvoiceProcessingMVC\\Rah2d33\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj",
+        "projectUniqueName": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj",
         "projectName": "ExampleB2C",
-        "projectPath": "C:\\MVCAPPS\\InvoiceProcessingMVC\\Rah2d33\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj",
-        "packagesPath": "C:\\Users\\Rahdee.Salie\\.nuget\\packages\\",
-        "outputPath": "C:\\MVCAPPS\\InvoiceProcessingMVC\\Rah2d33\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\obj\\",
+        "projectPath": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\ExampleB2C.csproj",
+        "packagesPath": "C:\\Users\\laren.cloete\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rahdee.Salie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laren.cloete\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
