@@ -1,3 +1,30 @@
+
+/* Welcome txt.css */
+
+/* Center align text */
+.text-center {
+    text-align: center;
+    
+}
+
+/* Add margin-bottom spacing */
+.mb-4 {
+    margin-bottom: 1.5rem; /* Equivalent to 24px */
+    
+}
+
+/* Additional styling for the h1 element */
+.text-center h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    font-weight: bold;
+    color: #0B3040; /* Change the color as needed */
+    margin: 0;
+    padding: 0.5rem 0; /* Adjust the padding as needed */
+}
+
+
+/*===============================================*/
+
 html {
   font-size: 14px;
 }
@@ -20,3 +47,91 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*===============================================*/
+
+/* Styles for the card container and its contents */
+
+
+.card-container {
+    padding-top: 50px; /* Adjust the value as needed */
+    padding-bottom: 50px; /* Optional: Adds padding to the bottom */
+}
+
+
+.row {
+    padding-top: 50px; /* Moves the cards down by 150px */
+}
+
+.card {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #6CB2B0;
+    border-color: #539C9A;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    .btn-primary:hover,
+    .btn-primary:active {
+        background-color: #539C9A;
+        border-color: #539C9A;
+        outline: none; /* Remove border on click */
+    }
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 20rem;
+        height: 14.5rem;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    
+}
+
