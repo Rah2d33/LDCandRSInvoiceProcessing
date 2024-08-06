@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|c:\\users\\laren.cloete\\documents\\ioco projects\\github\\ldcandrsinvoiceprocessing\\exampleb2c\\exampleb2c\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|solutionrelative:exampleb2c\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|c:\\users\\laren.cloete\\documents\\ioco projects\\github\\ldcandrsinvoiceprocessing\\exampleb2c\\exampleb2c\\models\\documentmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|solutionrelative:exampleb2c\\models\\documentmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|c:\\users\\laren.cloete\\documents\\ioco projects\\github\\ldcandrsinvoiceprocessing\\exampleb2c\\exampleb2c\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|solutionrelative:exampleb2c\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|c:\\users\\laren.cloete\\documents\\ioco projects\\github\\ldcandrsinvoiceprocessing\\exampleb2c\\exampleb2c\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C60DAB-9B97-4D42-B655-469542724BB9}|ExampleB2C\\ExampleB2C.csproj|solutionrelative:exampleb2c\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\MVCAPPS\\MVCInvoiceProcessing\\ExampleB2C\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,59 +9,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Document.cs",
-              "DocumentMoniker": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\Document.cs",
-              "RelativeDocumentMoniker": "ExampleB2C\\Models\\Document.cs",
-              "ToolTip": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\Document.cs",
-              "RelativeToolTip": "ExampleB2C\\Models\\Document.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:50:28.712Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentMetaData.cs",
-              "DocumentMoniker": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\DocumentMetaData.cs",
-              "RelativeDocumentMoniker": "ExampleB2C\\Models\\DocumentMetaData.cs",
-              "ToolTip": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\DocumentMetaData.cs",
-              "RelativeToolTip": "ExampleB2C\\Models\\DocumentMetaData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:50:06.538Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\Session.cs",
-              "RelativeDocumentMoniker": "ExampleB2C\\Models\\Session.cs",
-              "ToolTip": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\Session.cs",
-              "RelativeToolTip": "ExampleB2C\\Models\\Session.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:49:30.234Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ExampleB2C\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\laren.cloete\\Documents\\Ioco Projects\\GitHub\\LDCandRSInvoiceProcessing\\ExampleB2C\\ExampleB2C\\Models\\User.cs",
-              "RelativeToolTip": "ExampleB2C\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:49:03.946Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
