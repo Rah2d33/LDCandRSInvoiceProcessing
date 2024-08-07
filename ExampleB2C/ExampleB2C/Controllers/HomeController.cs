@@ -15,6 +15,11 @@ namespace ExampleB2C.Controllers
             _logger = logger;
         }
 
+        public IActionResult SaveFilesView()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
