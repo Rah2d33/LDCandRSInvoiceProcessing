@@ -1,0 +1,9 @@
+﻿
+@{
+    var currentTime = DateTime.Now;
+    var greeting = currentTime.Hour < 12 ? "Good morning" : currentTime.Hour < 18 ? "Good afternoon" : "Good evening";
+}
+
+<div class="text-center mb-4">
+    <h1>@greeting, @User.Identity.Name!</h1>
+</div>
