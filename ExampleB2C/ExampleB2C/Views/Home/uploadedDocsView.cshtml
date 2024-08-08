@@ -1,0 +1,38 @@
+﻿@model List<Document>
+
+@{
+    ViewData["Title"] = "extracted data";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date created</th>
+            <th>File Type</th>
+            <th>File Size</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+@*     <tbody>
+        @foreach (var doc in Model)
+        {
+            <tr>
+                <td>@doc.DocumentId</td>
+                <td>@doc.FileName</td>
+                <td>@doc.ContentType</td>
+                <td>@doc.UploadDate.ToString("MM/dd/yyyy")</td>
+                <td>@doc.FileSize.ToString("N2") bytes</td>
+                <td>
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@doc.DocumentId">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody> *@
+
+</table>
+
+@*  <button type="button" class="btn btn-secondary" onclick="deleteFile(@doc.DocumentID)">Delete</button> *@
