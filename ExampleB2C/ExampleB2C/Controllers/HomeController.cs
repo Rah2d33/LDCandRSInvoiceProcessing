@@ -1,6 +1,7 @@
 using ExampleB2C.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace ExampleB2C.Controllers
@@ -16,6 +17,11 @@ namespace ExampleB2C.Controllers
         }
 
         public IActionResult SaveFilesView()
+        {
+            return View();
+        }
+
+        public IActionResult uploadedDocsView()
         {
             return View();
         }
