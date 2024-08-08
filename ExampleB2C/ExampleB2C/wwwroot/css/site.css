@@ -1,25 +1,12 @@
 
-/* Welcome txt.css */
-
-/* Center align text */
-.text-center {
-    text-align: center;
-    
-}
-
-/* Add margin-bottom spacing */
-.mb-4 {
-    margin-bottom: 1.5rem; /* Equivalent to 24px */
-    
-}
-
 /* Additional styling for the h1 element */
 .text-center h1 {
     font-size: 2.5rem; /* Adjust the size as needed */
     font-weight: bold;
-    color: #0B3040; /* Change the color as needed */
+    color: #539C9A; /* Change the color as needed */
     margin: 0;
     padding: 0.5rem 0; /* Adjust the padding as needed */
+    font-family: 'Arial Rounded MT';
 }
 
 
@@ -51,6 +38,20 @@ body {
 /*===============================================*/
 
 /* Styles for the card container and its contents */
+
+/* Ensure no outline or box-shadow is applied to buttons in this specific context */
+.container .btn-primary,
+.container .btn-primary:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: none; /* Remove any box-shadow */
+    border: 1px solid #539C9A; /* Ensure border remains consistent */
+}
+
+    .container .btn-primary:focus,
+    .container .btn-primary:active,
+    .container .btn-primary:hover {
+        border: 1px solid #539C9A; /* Ensure border remains consistent */
+    }
 
 .card-container {
     padding-top: 50px; /* Adjust the value as needed */
@@ -89,8 +90,9 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
-    color: #0B3040;
+    color: #539C9A;
     padding: 6px 0px 0px 0px;
+    font-family: 'Arial Rounded MT';
 }
 
 .card-text {
@@ -99,32 +101,35 @@ body {
     font-size: 1rem;
     font-family: 'Trebuchet MS';
     color: #0B3040;
+    font-weight:200;
 }
 
 .btn-primary {
-    display: flex; /* Use flexbox to align content */
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: center;
     background-color: #0B3040;
-    border-color: #539C9A;
+    border: 1px solid #539C9A; /* Add a border to maintain size consistency */
     border-radius: 50px;
-    transition: background-color 0.3s, border-color 0.3s;
-    margin-top: auto; /* Push the button to the bottom */
-    padding: 10px 20px; /* Add padding around the button */
-    box-sizing: border-box; /* Ensure padding does not affect width */
+    transition: background-color 0.3s, border-color 0.3s, transform 0.1s;
+    margin-top: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
 }
-
-    .btn-primary i {
-        margin-right: 10px; /* Space between the icon and the text */
-        font-size: 1.2rem; /* Adjust icon size if needed */
-    }
 
     .btn-primary:hover,
     .btn-primary:active {
         background-color: #539C9A;
         border-color: #539C9A;
+    }
+
+    .btn-primary i {
+        margin-right: 10px; /* Space between the icon and the text */
+        font-size: 1.2rem; /* Adjust icon size if needed */
     }
 
 
